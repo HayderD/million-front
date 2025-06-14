@@ -13,7 +13,7 @@ const PropertyDetailModal = ({ property, onClose }) => {
   alt={property.propertyName}
   width="100%"
   height="300"
-/>
+/>       
         <p><strong>Dirección:</strong> {property.propertyAddress}</p>
         <p><strong>Precio:</strong> ${property.price.toLocaleString()}</p>
         <p><strong>Propietario:</strong> {property.ownerName}</p>

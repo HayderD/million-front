@@ -8,7 +8,7 @@ import PaginationControls from './PaginationControls';
 const PropertyList = () => {
   const [properties, setProperties] = useState([]);
   const [search, setSearch] = useState('');
-  const [priceRange, setPriceRange] = useState({ min: 0, max: 200000 });
+  const [priceRange, setPriceRange] = useState({ min: 0, max: 0 });
   const [selectedProperty, setSelectedProperty] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   const [totalCount, setTotalCount] = useState(0);
